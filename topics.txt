@@ -1,0 +1,41 @@
+Divide and conquer 
+
+Bigmod.
+Multiplying big numbers mod big numbers.
+
+find a*n mod m
+f(n) = f(n/2)+f(n/2) if even
+f(n)=f(n-1)+a if odd.
+
+
+geometric series sum
+
+f(n) =  x + x2 +....+xn
+
+f(n)=f(n/2)+x(n/2)*f(n/2) for even
+
+f(n)=f(n-1)+xn for odd.
+
+
+Discrete logarithm a^x =b mod (m)
+find the minimum x.
+x= np-q. (n=root m +1 , 1<=p<=root m , 0<=q<root m)
+a^(np) = b^q mod m;
+
+run loop on p , q .. put them in hashmaps.
+
+check if found in hashmaps
+
+to minimize x , minimize p , maximize q.
+
+
+
+nCr
+
+normal multiplication.
+// fact[i] = fact[i-1]*i
+// inv[maxn]= pow(fact[maxn],m-2);
+// inv[i] = inv[i+1]*(i+1);
+
+lucas theorem if n , r is very large. O(m) , m is prime 
+Pascals triangle if densed and in 10^3 range and if mod m is not prime
